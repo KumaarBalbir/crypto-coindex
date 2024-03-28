@@ -1,0 +1,28 @@
+{
+  "name": "coindex",
+  "version": "1.0.0",
+  "description": "Nodejs based CLI to check cryptocurrencies prices.",
+  "main": "index.js",
+  "bin": {
+    "coindex": "./bin/coindex.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Nodejs",
+    "CLI",
+    "Crypto",
+    "Currency",
+    "Price"
+  ],
+  "author": "Balbir",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "colors": "^1.4.0",
+    "commander": "^12.0.0",
+    "configstore": "^5.0.1",
+    "inquirer": "^7.1.0"
+  }
+}
