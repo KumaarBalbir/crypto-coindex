@@ -14,6 +14,26 @@ This project is a Node.js CLI tool for checking cryptocurrency prices. It utiliz
 
 - **Error Handling**: Implemented error handling for scenarios such as missing API keys or API request failures.
 
+## Demonstration
+Here is demonstration of few commands
+#### coindex
+![Main Command Screenshot](assets/coindex.png) 
+
+#### coindex key -h 
+![help command](assets/coindex%20key%20-h.png) 
+
+#### coindex key set
+![set command](assets/coindex%20key%20set.png) 
+
+#### coindex check price
+![price command](assets/coindex%20check%20price.png)
+
+#### coindex check price --cur=EUR
+![price with currency](assets/coindex%20check%20price%20cur.png)
+
+#### coindex check price --coin=BTC --cur=INR
+![price with coin and cur](assets/coindex%20check%20price%20coin.png)
+
 ## Getting Started
 
 To get started with the Crypto-Coindex CLI tool, follow these steps:
